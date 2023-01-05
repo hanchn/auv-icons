@@ -1,0 +1,36 @@
+{
+	"name": "auv-icons",
+	"version": "0.0.1",
+	"type": "module",
+	"main": "auv-icons/auv-icons.js",
+	"scripts": {
+		"dev": "vite --port 3000",
+		"draw": "node ./drawComponents.js",
+		"build": "node ./updateVersion.js && vite build && npm publish",
+		"preview": "vite preview"
+	},
+	"files": [
+		"auv-icons",
+		"README.md",
+		"package.json"
+	],
+	"keywords": [
+		"auv",
+		"auv-icons",
+		"AUV",
+		"AUVUI",
+		"vue3-auv-icons",
+		"vue3",
+		"vue3 components",
+		"icons"
+	],
+	"dependencies": {
+		"vite-plugin-md": "^0.21.5",
+		"vue": "^3.2.45"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^4.0.0",
+		"vite": "^4.0.0"
+	},
+	"projectId": "129"
+}

@@ -1,0 +1,50 @@
+@import '../public.css';
+
+button.auv-btn{
+  position: relative;
+  display: inline-block;
+  font-weight: 400;
+  white-space: nowrap;
+  text-align: center;
+  background-image: none;
+  border: 1px solid transparent;
+  box-shadow: 0 2px #00000004;
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button.auv-btn[size='default']{
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+button.auv-btn[size='small']{
+  padding: 4px 10px;
+  margin: 0 10px;
+  font-size: 12px;
+}
+
+button.auv-btn[size='large']{
+  padding: 14px 24px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+button.auv-btn[type='default']{
+  color: #000000d9;
+  border-color: #d9d9d9;
+  background: #fff;
+}
+
+button.auv-btn[type='default']:hover{
+  color: var(--auv-primary-color);
+  border-color: var(--auv-primary-color);
+}
+

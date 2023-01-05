@@ -1,0 +1,60 @@
+
+html,body {
+  width: 100%;
+  height: 100%
+}
+
+body {
+  margin: 0;
+  color: #000000d9;
+  font-size: 14px;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,"Apple Color Emoji","Segoe UI Emoji",Segoe UI Symbol,"Noto Color Emoji";
+  font-variant: tabular-nums;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+:root {
+  --auv-primary-color: #1890ff;
+  --auv-primary-color-hover: #40a9ff;
+  --auv-primary-color-active: #096dd9;
+  --auv-primary-color-outline: rgba(24, 144, 255, .2);
+  --auv-primary-1: #e6f7ff;
+  --auv-primary-2: #bae7ff;
+  --auv-primary-3: #91d5ff;
+  --auv-primary-4: #69c0ff;
+  --auv-primary-5: #40a9ff;
+  --auv-primary-6: #1890ff;
+  --auv-primary-7: #096dd9;
+  --auv-primary-color-deprecated-pure: ;
+  --auv-primary-color-deprecated-l-35: #cbe6ff;
+  --auv-primary-color-deprecated-l-20: #7ec1ff;
+  --auv-primary-color-deprecated-t-20: #46a6ff;
+  --auv-primary-color-deprecated-t-50: #8cc8ff;
+  --auv-primary-color-deprecated-f-12: rgba(24, 144, 255, .12);
+  --auv-primary-color-active-deprecated-f-30: rgba(230, 247, 255, .3);
+  --auv-primary-color-active-deprecated-d-02: #dcf4ff;
+  --auv-success-color: #52c41a;
+  --auv-success-color-hover: #73d13d;
+  --auv-success-color-active: #389e0d;
+  --auv-success-color-outline: rgba(82, 196, 26, .2);
+  --auv-success-color-deprecated-bg: #f6ffed;
+  --auv-success-color-deprecated-border: #b7eb8f;
+  --auv-error-color: #ff4d4f;
+  --auv-error-color-hover: #ff7875;
+  --auv-error-color-active: #d9363e;
+  --auv-error-color-outline: rgba(255, 77, 79, .2);
+  --auv-error-color-deprecated-bg: #fff2f0;
+  --auv-error-color-deprecated-border: #ffccc7;
+  --auv-warning-color: #faad14;
+  --auv-warning-color-hover: #ffc53d;
+  --auv-warning-color-active: #d48806;
+  --auv-warning-color-outline: rgba(250, 173, 20, .2);
+  --auv-warning-color-deprecated-bg: #fffbe6;
+  --auv-warning-color-deprecated-border: #ffe58f;
+  --auv-info-color: #1890ff;
+  --auv-info-color-deprecated-bg: #e6f7ff;
+  --auv-info-color-deprecated-border: #91d5ff
+}
+
+
