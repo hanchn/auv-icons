@@ -1,6 +1,6 @@
 <template>
   <div>
-    <icon-view style="color: red;"/>
+    <icon-view color="red" size="100"/>
   </div>
 </template>
 <script></script>

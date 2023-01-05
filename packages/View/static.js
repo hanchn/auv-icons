@@ -1,11 +1,11 @@
 export const propTypes =  {
-  style: Object,
+  color: String,
   class: Object,
   size: Number
 }
 
 export const staticState = {
-  style_: null,
+  color_: null,
   class_: null,
   size_: 32
 }

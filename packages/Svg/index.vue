@@ -1,6 +1,6 @@
 <template>
     <svg 
-      :style="style_"
+      :fill="color_"
       :class="class_"
       :xmlns="xmlns" 
       :xmlns:xlink="xlink" 
@@ -27,7 +27,9 @@ export default {
     })
 
     onMounted(() => {
+      console.log('props ', props)
       initState(state, props)
+      console.log(state)
     })
     
     return {
