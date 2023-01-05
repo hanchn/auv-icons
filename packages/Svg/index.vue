@@ -5,7 +5,7 @@
       :xmlns="xmlns" 
       :xmlns:xlink="xlink" 
       :t="t"
-      :viewBox="viewBox" :version="version" :p-id="pid" 
+      :viewBox="viewBox"
       :width="size_" 
       :height="size_">
       <slot></slot>

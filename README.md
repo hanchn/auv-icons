@@ -1,17 +1,9 @@
-# AUV Components
+# AUV Icons
 
 developed a Vue UI library 
 
-## General
+## Icons
 
-### Button
+### icon-view
 
-- To trigger an operation.
-
-### Typography
-
-- Basic text writing
-
-## Layout
-
-## Navigation
+- view icon
