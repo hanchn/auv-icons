@@ -16,7 +16,6 @@ tree.map((item, index) => {
   const testEnd = tree[index + 1] ? ',' : ''
   let splitList = item.split('.')
   if (splitList.length === 1) { 
-    console.log('testEnd ', testEnd)
     let val = splitList[0]
     config.list += `
     ${val + testEnd}`

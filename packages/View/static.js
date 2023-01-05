@@ -6,6 +6,6 @@ export const propTypes =  {
 
 export const staticState = {
   style_: null,
-  class_: '',
+  class_: null,
   size_: 32
 }
