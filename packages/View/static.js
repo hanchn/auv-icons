@@ -1,13 +1,11 @@
 export const propTypes =  {
   style: Object,
-  type: String,
   class: Object,
-  size: String
+  size: Number
 }
 
 export const staticState = {
   style_: null,
-  class_: 'auv-btn',
-  type_: 'default',
-  size_: 'default'
+  class_: '',
+  size_: 32
 }

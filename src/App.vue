@@ -1,6 +1,6 @@
 <template>
   <div>
-    <auv-button>测 试</auv-button>
+    <icon-view/>
   </div>
 </template>
 <script></script>

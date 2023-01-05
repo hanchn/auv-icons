@@ -10,17 +10,19 @@ const config = {
 }
 
 const { entry } = config
-const tree = await readdir(entry)
-
+let tree = await readdir(entry)
+tree = tree.filter(v => v.split('.').length === 1)
 tree.map((item, index) => { 
+  const testEnd = tree[index + 1] ? ',' : ''
   let splitList = item.split('.')
   if (splitList.length === 1) { 
+    console.log('testEnd ', testEnd)
     let val = splitList[0]
     config.list += `
-    ${val + (tree.length - 2 <= index ? `` : `,\n`)}`
+    ${val + testEnd}`
     config.importList += `\nimport ${val} from "./${val}/index.vue"`
     config.exportList += `
-  ${tree.length - 2 <= index ? val + '\n}\n' : val + ','}`
+  ${val + testEnd}`
   }
 })
 
@@ -41,7 +43,7 @@ export function install(Vue) {
   })
 }\n`
 
-template = config.importList + template + config.exportList + `\nexport default { install }\n`
+template = config.importList + template + config.exportList + `\n}\nexport default { install }\n`
 
 
 writeFile(config.output, template)

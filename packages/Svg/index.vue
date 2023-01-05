@@ -1,7 +1,15 @@
 <template>
-  <button :style="style_" :class="class_" :size="size_" :type="type_">
-    <slot></slot>
-  </button>
+    <svg 
+      :style="style_"
+      :class="class_"
+      :xmlns="xmlns" 
+      :xmlns:xlink="xlink" 
+      :t="t"
+      :viewBox="viewBox" :version="version" :p-id="pid" 
+      :width="size_" 
+      :height="size_">
+      <slot></slot>
+    </svg>
 </template>
 <script>
 import './style.css'
@@ -9,7 +17,7 @@ import { initState } from '../utils.js'
 import { propTypes, staticState } from './static.js'
 import { reactive, toRefs, onMounted } from 'vue'
 export default {
-  name: "auv-button",
+  name: "Svg",
   props: {
     ...propTypes
   },

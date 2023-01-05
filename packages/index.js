@@ -1,6 +1,6 @@
 
-import Button from "./Button/index.vue"
-import Typography from "./Typography/index.vue"
+import Svg from "./Svg/index.vue"
+import View from "./View/index.vue"
 
 function isPlugin(item){
   return item.install
@@ -8,10 +8,8 @@ function isPlugin(item){
 
 export function install(Vue) {
   const components = [
-    Button,
-
-    Typography,
-
+    Svg,
+    View
   ]
   components.forEach(item => {
     if (isPlugin(item)) {
@@ -23,6 +21,7 @@ export function install(Vue) {
 }
 
 export {
-  Button,
-  Typography,
+  Svg,
+  View
+}
 export default { install }
